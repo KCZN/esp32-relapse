@@ -1,5 +1,10 @@
 # esp32-webkit
-Relapse exploit blending ItsPLK's esp32 autoloader project with the relapse exploits original host creating an offline exploit process.
+Relapse exploit blending the esp32 autoloader project with the relapse exploits original host creating an offline exploit process which is fast.
+
+projects used/referenced:
+https://github.com/ntfargo/Relapse-Exploit
+
+https://github.com/owendswang/ps5-webkit-autoloader-esp32/tree/main
 
 # How to use
 - flash the appropriate .bin to your esp device
@@ -8,11 +13,13 @@ Relapse exploit blending ItsPLK's esp32 autoloader project with the relapse expl
 - press OK when prompted
 - profit.
 
+one minor issue is you will need to close settings and open it again for debug settings to actually appear.
+
 # sending payloads
-connect to esp32 wifi on your phone, pc or whatever and then send payloads to the ip:9021 which elfldr's notification shown.
+connect to the esp32's wifi on your pc, phone or whatever and then send payloads to esp_ip:9021 using your preferred method.
 
 # How to build
-You must use make, install arduino cli and core 2.0.1.1 for it as these are dependencies.
+You must use make, install arduino cli and core 2.0.1.1 for it as these are dependencies. Go into project root, open terminal and type 'make', it'll produce several folders inside /build/, out of all the produced files inside each board types folder, you only care to flash the ESP32-arduino.x.merged.bin file to your respective board matching it. 
 
 # DISCLAIMER
 I did not code anything here, I threw together two different things and made it work. All rights/thanks go to the original developers!
