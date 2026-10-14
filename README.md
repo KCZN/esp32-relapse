@@ -11,7 +11,7 @@ https://github.com/ntfargo/Relapse-Exploit
 <br>
 <br>
 https://github.com/owendswang/ps5-webkit-autoloader-esp32/tree/main
-<br>^^ read this if you are unsure if you need a standard or debug image to flash!
+<br>^^ the entire foundation. read this if you are unsure if you need a standard or debug image to flash!
 
 # How to use
 - flash the appropriate .bin to your esp device
