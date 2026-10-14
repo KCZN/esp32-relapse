@@ -22,7 +22,7 @@ one minor issue is you will need to close settings and open it again for debug s
 # sending payloads
 connect to the esp32's wifi on your pc, phone or whatever and then send payloads to esp_ip:9021 using your preferred method.
 
-# How to build
+# How to build/edit src
 You must use make, install arduino cli and core 2.0.1.1 for it as these are dependencies. Go into project root, open terminal and type 'make', it'll produce several folders inside /build/, out of all the produced files inside each board types folder, you only care to flash the ESP32-arduino.x.merged.bin file to your respective board matching it. 
 
 # DISCLAIMER
