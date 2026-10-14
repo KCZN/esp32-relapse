@@ -1,7 +1,5 @@
 # esp32-webkit
-__only tested with ESP32-arduino.pico.merged.bin__
-
-Relapse exploit blending the esp32 autoloader project with the relapse exploits original host creating an offline exploit process which is fast.
+__only tested with ESP32-arduino.pico.merged.bin__ as of 14/10/2026
 
 projects used/referenced:
 <br>
