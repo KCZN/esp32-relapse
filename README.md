@@ -7,7 +7,7 @@ projects used/referenced:
 <br>
 https://github.com/ntfargo/Relapse-Exploit
 <br>
-^^ original release repo
+^^ Relapse (I used the original release)
 <br>
 <br>
 https://github.com/owendswang/ps5-webkit-autoloader-esp32/tree/main
