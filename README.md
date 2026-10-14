@@ -4,9 +4,11 @@ __only tested with ESP32-arduino.pico.merged.bin__
 Relapse exploit blending the esp32 autoloader project with the relapse exploits original host creating an offline exploit process which is fast.
 
 projects used/referenced:
+<br>
 https://github.com/ntfargo/Relapse-Exploit
-
+<br>
 https://github.com/owendswang/ps5-webkit-autoloader-esp32/tree/main
+<br>^^read this if you are unsure if you need a standard or debug image to flash!
 
 # How to use
 - flash the appropriate .bin to your esp device
