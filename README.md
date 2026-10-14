@@ -13,8 +13,9 @@ https://github.com/owendswang/ps5-webkit-autoloader-esp32/tree/main
 
 # How to use
 - flash the appropriate .bin to your esp device
-- connect esp to ps5 and connect to it
-- open settings and go to user guide
+- connect esp to ps5 and connect to its WiFi (ESP32_PORTAL)
+<br>PASSWORD: 12345678 (should be)
+- open settings, first tab and click on user guide
 - press OK when prompted
 - profit.
 
